@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbProvider", "MultipleDbProvider\MultipleDbProvider.csproj", "{624B6C6D-3905-4A19-970C-20B7529D785D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbProvider.Infrastructure", "MultipleDbProvider.Infrastructure\MultipleDbProvider.Infrastructure.csproj", "{F8C3659D-B349-4204-9979-26F802E5132B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbProvider.Infrastructure.SqlServerMigrations", "MultipleDbProvider.Infrastructure.SqlServerMigrations\MultipleDbProvider.Infrastructure.SqlServerMigrations.csproj", "{00922910-69CC-4395-B9FD-C087F2092247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbProvider.Domain", "MultipleDbProvider.Domain\MultipleDbProvider.Domain.csproj", "{DBBECFD1-4DC4-4732-81A2-3784B43936CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleDbProvider.Infrastructure.PostGreMigrations", "MultipleDbProvider.Infrastructure.PostGreMigrations\MultipleDbProvider.Infrastructure.PostGreMigrations.csproj", "{17683F94-1CA2-41E1-B24B-5AA614C744FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624B6C6D-3905-4A19-970C-20B7529D785D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624B6C6D-3905-4A19-970C-20B7529D785D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624B6C6D-3905-4A19-970C-20B7529D785D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624B6C6D-3905-4A19-970C-20B7529D785D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C3659D-B349-4204-9979-26F802E5132B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C3659D-B349-4204-9979-26F802E5132B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C3659D-B349-4204-9979-26F802E5132B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C3659D-B349-4204-9979-26F802E5132B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00922910-69CC-4395-B9FD-C087F2092247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00922910-69CC-4395-B9FD-C087F2092247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00922910-69CC-4395-B9FD-C087F2092247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00922910-69CC-4395-B9FD-C087F2092247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBECFD1-4DC4-4732-81A2-3784B43936CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBECFD1-4DC4-4732-81A2-3784B43936CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBECFD1-4DC4-4732-81A2-3784B43936CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBECFD1-4DC4-4732-81A2-3784B43936CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17683F94-1CA2-41E1-B24B-5AA614C744FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17683F94-1CA2-41E1-B24B-5AA614C744FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17683F94-1CA2-41E1-B24B-5AA614C744FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17683F94-1CA2-41E1-B24B-5AA614C744FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F322821A-5FE9-4582-8CAA-E72B52CE704E}
+	EndGlobalSection
+EndGlobal
